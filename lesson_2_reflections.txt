@@ -1,16 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When you intitialize a repository using git init, git creates a hidden directory
-called .git in the working directory that allows git to track the
-changes made to the directory.
+When you initialize a repository using git init, git creates a hidden directory
+called .git in the working directory that allows git to track the changes made
+to the directory.
 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 The staging area contains the files in the repository that will be included in
-the next commit. The ability to pick which files go into the staging area
-allows the user to control which files are updated in the next commit.
+the next commit. The ability to pick which files go into the staging area allows
+the user to control which files are updated in the next commit.
 
 
 How can you use the staging area to make sure you have one commit per logical
@@ -18,3 +18,21 @@ change?
 
 You can use git diff --staged to compare the staging area to the most recent
 commit and confirm the next commit will only introduce one logical change.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches are helpful if you want to test out experimental features or
+collaborate with other people on a program. If you want to experiment with a new
+feature and you are not sure you want to add the feature to the program,
+creating an experimental branch allows you to test the feature without changing
+the master program. If you like the feature after developing it in a separate
+branch, you can add it to the master branch.
+
+Branches are also helpful if you are collaborating with other people on a
+program. You can create a branch with only your changes, so you do not change
+the state of the other branches in a way that disrupts the work other people are
+doing. Your collaborators can also see all your changes in one history, which
+makes it easier for them to understand what changes you are making to the
+program.

@@ -42,3 +42,11 @@ How do the diagrams help you visualize the branch structure?
 
 Diagrams help you see where branches split from one another and what common
 history they share.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of merging two branches together is a new commit with all the changes
+made to each branch. In the diagram, the new commit is represented as a circle
+with arrows pointing to the last commit in each of its parent branches.

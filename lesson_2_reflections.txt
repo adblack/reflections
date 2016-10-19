@@ -36,3 +36,9 @@ the state of the other branches in a way that disrupts the work other people are
 doing. Your collaborators can also see all your changes in one history, which
 makes it easier for them to understand what changes you are making to the
 program.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you see where branches split from one another and what common
+history they share.

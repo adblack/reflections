@@ -50,3 +50,12 @@ the diagram the way we do?
 The result of merging two branches together is a new commit with all the changes
 made to each branch. In the diagram, the new commit is represented as a circle
 with arrows pointing to the last commit in each of its parent branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+An advantage of Git's automatic merging is it reduces the time it takes to
+combine two branches. A downside of Git's automatic merging is it can only merge
+everything in both branches. If you want to add just some changes from one
+branch to another, you have to do it manually.

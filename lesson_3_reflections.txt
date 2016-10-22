@@ -14,3 +14,19 @@ You should manually pull changes from a remote, so you can decide which changes
 are added to your local repository. There are situations where you do not want
 to pull changes automatically like if another person updates the remote in a way
 that interferes with what you are working on in your local repository.
+
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+Forks are repositories created by copying a repository on GitHub to your account
+on GitHub. Clones are repositories created by copying a remote repository to a
+local machine or created by copying a local repository on a local
+machine. Branches are collections of commits in a local repository.
+
+You create a fork when you want to modify a repository on GitHub you do not have
+permission to change or you do not want to change. You create a clone when you
+want to have a copy of a remote repository on a local machine or when you want
+to make a copy of a local repository on a local machine. You create a branch
+when you want to create a modified version of a project within a local
+repository.

@@ -4,3 +4,13 @@ local?
 You want to use a remote repository when you want a backup of your local
 repository, when you want to maintain copies of your repository on multiple
 computers, or when you want to share your repository with other people.
+
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+You should manually pull changes from a remote, so you can decide which changes
+are added to your local repository. There are situations where you do not want
+to pull changes automatically like if another person updates the remote in a way
+that interferes with what you are working on in your local repository.

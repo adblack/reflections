@@ -1,3 +1,4 @@
+
 When would you want to use a remote repository rather than keeping all your work
 local?
 
@@ -38,3 +39,17 @@ stored locally?
 The benefit of having a local copy of the last know state of the remote is you
 can compare your local repository to the remote or branch from the remote if you
 do not have an internet connection.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+I would collaborate without Git and GitHub by copying source code to my
+computer, editing it, and emailing it to my collaborators to review. To make my
+changes easy from them to understand, I would add comments where I made changes
+explaining why I made the changes. My collaborators could easily see all my
+changes and comments by using diff -u, and they could manually add the changes
+they liked to their source. I would use the same process to review the changes
+they made to their source and to incorporate those changes into my source. While
+this process would work, it would be much more time consuming than using Git and
+GitHub.

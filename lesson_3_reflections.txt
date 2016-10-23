@@ -30,3 +30,11 @@ want to have a copy of a remote repository on a local machine or when you want
 to make a copy of a local repository on a local machine. You create a branch
 when you want to create a modified version of a project within a local
 repository.
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+The benefit of having a local copy of the last know state of the remote is you
+can compare your local repository to the remote or branch from the remote if you
+do not have an internet connection.

@@ -53,3 +53,23 @@ they liked to their source. I would use the same process to review the changes
 they made to their source and to incorporate those changes into my source. While
 this process would work, it would be much more time consuming than using Git and
 GitHub.
+
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+You would want to make changes in a separate branch when other people are
+working on the project with you. This allows you to make the changes you want to
+the project without disrupting the work your collaborators are doing. It also
+allows your collaborators to review your changes before they are added to the
+master branch.
+
+Making changes in a separate branch is also useful when you are working on your
+own, and you want to develop a new feature you are not sure you want to include
+in the standard program, or you want to make a version of your program for
+another language.
+
+The benefits of using multiple branches come at the cost of a more time
+consuming workflow compared to the workflow of using one branch. If your project
+does not require multiple branches, you will save yourself time by making all
+your changes to the master branch.
